@@ -1,0 +1,55 @@
+.form-control {
+    width: 80%;
+    height: 24px;
+    margin: 40px;
+}
+
+.dropdown {
+    width: 60%;
+    margin-left: 15%;
+}
+
+.split {
+    width: 50%;
+    height: 50%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+  }
+  
+  .right {
+    right: 0;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  img {
+      width: 200px;
+      border-radius: 0;
+  }
+
+  .button1 {
+      background-color: green;
+      color:white;
+      left : 50%;
+      top:80%;
+      position: absolute;
+      width: 120px;
+      height: 42px;
+  }
+
+  .heading {
+    text-align: center;
+    color: green;
+  }
